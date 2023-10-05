@@ -39,6 +39,7 @@ public class PdfGenerator {
             byte[] qrImage =  IOUtils.toByteArray(resourceAsStream);
             ImageInfo imageInfo = new ImageInfo(155, 240, 300, 300, 0, qrImage);
             generate(new QRTankDownloadTemplate(), new FileOutputStream("out-2029.pdf"), imageInfo);
+            generate(new ManifestDownloadTemplate(), new FileOutputStream("out-manifest-2029.pdf"), imageInfo);
         } catch (IOException e) {
             e.printStackTrace();
         }

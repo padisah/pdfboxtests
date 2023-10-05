@@ -1,0 +1,8 @@
+target/
+.classpath
+.project
+.settings
+.externalToolBuilders/
+.dbeaver/
+*.pdf
+
