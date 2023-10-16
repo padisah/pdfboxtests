@@ -4,5 +4,4 @@ target/
 .settings
 .externalToolBuilders/
 .dbeaver/
-*.pdf
 
